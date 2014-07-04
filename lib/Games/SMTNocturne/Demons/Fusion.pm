@@ -2,7 +2,7 @@ package Games::SMTNocturne::Demons::Fusion;
 BEGIN {
   $Games::SMTNocturne::Demons::Fusion::AUTHORITY = 'cpan:DOY';
 }
-$Games::SMTNocturne::Demons::Fusion::VERSION = '0.01';
+$Games::SMTNocturne::Demons::Fusion::VERSION = '0.02';
 use strict;
 use warnings;
 use overload '""' => 'to_string';
@@ -113,7 +113,7 @@ Games::SMTNocturne::Demons::Fusion - represents the results of a fusion
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

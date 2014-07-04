@@ -35,10 +35,10 @@
       },
       "runtime" : {
          "requires" : {
-            "Exporter" : "0",
+            "Exporter" : "5.58",
             "Getopt::Long" : "0",
             "JSON::PP" : "0",
-            "List::Util" : "0",
+            "List::Util" : "1.27",
             "overload" : "0",
             "strict" : "0",
             "warnings" : "0"
@@ -58,15 +58,15 @@
    "provides" : {
       "Games::SMTNocturne::Demons" : {
          "file" : "lib/Games/SMTNocturne/Demons.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Games::SMTNocturne::Demons::Demon" : {
          "file" : "lib/Games/SMTNocturne/Demons/Demon.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Games::SMTNocturne::Demons::Fusion" : {
          "file" : "lib/Games/SMTNocturne/Demons/Fusion.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -81,7 +81,7 @@
          "web" : "https://github.com/doy/games-smtnocturne-demons"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
@@ -219,7 +219,7 @@
             "version" : "5.014"
          },
          {
-            "class" : "Dist::Zilla::Plugin::NoTabsTests",
+            "class" : "Dist::Zilla::Plugin::Test::NoTabs",
             "config" : {
                "Dist::Zilla::Plugin::Test::NoTabs" : {
                   "module_finder" : [
@@ -231,7 +231,7 @@
                   ]
                }
             },
-            "name" : "@DOY/NoTabsTests",
+            "name" : "@DOY/Test::NoTabs",
             "version" : "0.07"
          },
          {

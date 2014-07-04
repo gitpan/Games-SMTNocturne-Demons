@@ -2,7 +2,7 @@ package Games::SMTNocturne::Demons::Demon;
 BEGIN {
   $Games::SMTNocturne::Demons::Demon::AUTHORITY = 'cpan:DOY';
 }
-$Games::SMTNocturne::Demons::Demon::VERSION = '0.01';
+$Games::SMTNocturne::Demons::Demon::VERSION = '0.02';
 use strict;
 use warnings;
 use overload '""' => 'to_string', fallback => 1;
@@ -106,7 +106,7 @@ Games::SMTNocturne::Demons::Demon - an individual demon
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

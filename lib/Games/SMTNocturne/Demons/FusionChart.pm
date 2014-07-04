@@ -2,7 +2,7 @@ package Games::SMTNocturne::Demons::FusionChart;
 BEGIN {
   $Games::SMTNocturne::Demons::FusionChart::AUTHORITY = 'cpan:DOY';
 }
-$Games::SMTNocturne::Demons::FusionChart::VERSION = '0.01';
+$Games::SMTNocturne::Demons::FusionChart::VERSION = '0.02';
 use strict;
 use warnings;
 

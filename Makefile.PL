@@ -23,10 +23,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "mit",
   "NAME" => "Games::SMTNocturne::Demons",
   "PREREQ_PM" => {
-    "Exporter" => 0,
+    "Exporter" => "5.58",
     "Getopt::Long" => 0,
     "JSON::PP" => 0,
-    "List::Util" => 0,
+    "List::Util" => "1.27",
     "overload" => 0,
     "strict" => 0,
     "warnings" => 0
@@ -38,7 +38,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.88",
     "lib" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -46,13 +46,13 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Exporter" => 0,
+  "Exporter" => "5.58",
   "File::Spec" => 0,
   "Getopt::Long" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "JSON::PP" => 0,
-  "List::Util" => 0,
+  "List::Util" => "1.27",
   "Test::More" => "0.88",
   "lib" => 0,
   "overload" => 0,

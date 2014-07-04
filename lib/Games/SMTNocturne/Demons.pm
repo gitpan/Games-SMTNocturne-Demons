@@ -2,12 +2,12 @@ package Games::SMTNocturne::Demons;
 BEGIN {
   $Games::SMTNocturne::Demons::AUTHORITY = 'cpan:DOY';
 }
-$Games::SMTNocturne::Demons::VERSION = '0.01';
+$Games::SMTNocturne::Demons::VERSION = '0.02';
 use strict;
 use warnings;
 # ABSTRACT: look up information about demon fusion in Shin Megami Tensei: Nocturne
 
-use Exporter 'import';
+use Exporter 5.58 'import';
 our @EXPORT_OK = qw(demon demons_of_type all_demons fuse fusions_for);
 
 use Games::SMTNocturne::Demons::Demon;
@@ -303,7 +303,7 @@ Games::SMTNocturne::Demons - look up information about demon fusion in Shin Mega
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
